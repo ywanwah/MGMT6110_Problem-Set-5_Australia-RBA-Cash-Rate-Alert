@@ -10,9 +10,9 @@ A small static page about my individual Zapier agent. It has five tabs:
 
 ## How to add screenshots
 
-1. Upload the image into the `images` folder (GitHub: open `images`, then **Add file > Upload files**).
+1. Upload the image into the folder (GitHub: **Add file > Upload files**).
 2. Open `index.html`, find the `runs` list (or `breakShots`) inside the `<script>` tag, and add a line such as:
-   `{ file: "images/run-example.png", caption: "Mon 19 Oct · 09:00 · Source: headline" }`
+   `{ file: "run-example.png", caption: "Mon 19 Oct · 09:00 · Source: headline" }`
 3. Commit. Vercel redeploys automatically.
 
 ## Keep it safe (this repository is public)
