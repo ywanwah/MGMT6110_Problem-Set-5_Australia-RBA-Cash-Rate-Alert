@@ -253,21 +253,21 @@
 <script>
 /*
   EDIT ONLY THESE TWO LISTS TO ADD OR CHANGE SCREENSHOTS.
-  1. Upload the image into the "images" folder in the repository.
-  2. Add a line { file: "images/your-file.png", caption: "..." } to the right list.
+  1. Upload the image into the repository.
+  2. Add a line { file: "your-file.png", caption: "..." } to the right list.
   Crop out email addresses and the Zapier "stop these emails" link before uploading.
 */
 const breakShots = [
-  { file: "images/break-1-feed-url.png", caption: "Screenshot 1. Step 1 of the Zap: the Feed URL is the RBA media-releases feed." },
-  { file: "images/break-2-email.png", caption: "Screenshot 2. The alert email for “Appointment of Chief Risk Officer” (17:01, 18 Oct): no rate information, and headline, link and date run together." }
+  { file: "break-1-feed-url.png", caption: "Screenshot 1. Step 1 of the Zap: the Feed URL is the RBA media-releases feed." },
+  { file: "break-2-email.png", caption: "Screenshot 2. The alert email for “Appointment of Chief Risk Officer” (17:01, 18 Oct): no rate information, and headline, link and date run together." }
 ];
 
 const runs = [
-  { file: "images/day1-0004-yahoo.png", caption: "Sun 18 Oct · 00:04 · Yahoo Finance Australia: “RBA interest rate decision live” (story dated 11 Aug)" },
-  { file: "images/day1-0053-smh.png", caption: "Sun 18 Oct · 00:53 · SMH: “ASX claws back most of its early losses after rate hike fears ease”" },
-  { file: "images/day1-0230-seekingalpha.png", caption: "Sun 18 Oct · 02:30 · Seeking Alpha: “RBA September Minutes: Unanimous 25bps rate hike to 4.6%”" },
-  { file: "images/day1-1032-afr.png", caption: "Sun 18 Oct · 10:32 · AFR: “I’m not waiting for the ‘RBA pivot’ to dive back into the ASX”" },
-  { file: "images/day1-1216-macrobusiness.png", caption: "Sun 18 Oct · 12:16 · MacroBusiness: “The economic week in review”" }
+  { file: "day1-0004-yahoo.png", caption: "Sun 18 Oct · 00:04 · Yahoo Finance Australia: “RBA interest rate decision live” (story dated 11 Aug)" },
+  { file: "day1-0053-smh.png", caption: "Sun 18 Oct · 00:53 · SMH: “ASX claws back most of its early losses after rate hike fears ease”" },
+  { file: "day1-0230-seekingalpha.png", caption: "Sun 18 Oct · 02:30 · Seeking Alpha: “RBA September Minutes: Unanimous 25bps rate hike to 4.6%”" },
+  { file: "day1-1032-afr.png", caption: "Sun 18 Oct · 10:32 · AFR: “I’m not waiting for the ‘RBA pivot’ to dive back into the ASX”" },
+  { file: "day1-1216-macrobusiness.png", caption: "Sun 18 Oct · 12:16 · MacroBusiness: “The economic week in review”" }
 ];
 
 function el(tag, cls, text) {
